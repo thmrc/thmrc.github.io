@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:white;
+    font-family: 'Prompt', sans-serif;
+    background-size: auto 100vh;
+    height: 100vh;
+    font-size: 18px;
+
+}
+
+@media (min-width: 320px) {
+    body{
+       
+        font-size: 12px;
+     
+        }
+}
+
+@media (min-width: 400px) {
+    body{
+       
+        font-size: 18px;
+     
+        }
+}
+
+@media (min-width: 700px) {
+    body{
+       
+        font-size: 20px;
+     
+        }
+}
+
+header{
+    height: 10vh;
+    display: flex; /* faz todo mundo virar coluna */
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    
+    color: #747171;
+}
+.menu{
+    color: white;
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+
+}
+
+.menu a{
+    
+    display: block; /* usado para transformar o "a" em bloco para poder usar o padding */
+    padding: 10px;
+
+}
+
+.dicivil ul{
+    
+}
+.dcivil a{
+    color: black;
+}
+.dcivil a:hover{
+    color: #747171;
+}
+.dcivil h1{
+
+    text-align: center;
+    padding: 10px;
+       
+}
+
+.dcivil li {
+    color: black;
+    text-align: center;
+    list-style: none;
+}
+
+/* ---------- Tópico 1 -------------- */
+
+.topico1 {
+    text-align: center;
+    text-align: justify;
+    padding: 30px;
+}
+
+.topico1 h1, h2{
+    text-align: center;
+}
+
+@media (min-width: 940px) {
+    .topico1{
+       
+        padding: 50px;
+     
+        }
+}
+
+
+@media (min-width: 1074px) {
+    .topico1{
+       
+        padding: 100px;
+     
+        }
+}
+
+
+/* -------------- Botão  Voltar -------- */
+.botaovoltar{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.botaovoltar a{
+    color: black;
+   
+}
